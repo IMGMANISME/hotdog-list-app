@@ -1,0 +1,634 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D5496C912A26EAA7002485A9 /* NoItemsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5496C902A26EAA7002485A9 /* NoItemsView.swift */; };
+		D594E5792A17ED3900268A0A /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D594E5782A17ED3900268A0A /* ListView.swift */; };
+		D594E57B2A17F05C00268A0A /* ListRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D594E57A2A17F05C00268A0A /* ListRowView.swift */; };
+		D594E57D2A17F41300268A0A /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D594E57C2A17F41300268A0A /* AddView.swift */; };
+		D5A332F42A1DB17700FF3318 /* ItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5A332F32A1DB17700FF3318 /* ItemView.swift */; };
+		D5A332F62A1DC24700FF3318 /* LabelModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5A332F52A1DC24700FF3318 /* LabelModel.swift */; };
+		D5BB3E652A0BAE1600B6548A /* hot_dog_list_appApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5BB3E642A0BAE1600B6548A /* hot_dog_list_appApp.swift */; };
+		D5BB3E692A0BAE1700B6548A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5BB3E682A0BAE1700B6548A /* Assets.xcassets */; };
+		D5BB3E6C2A0BAE1700B6548A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5BB3E6B2A0BAE1700B6548A /* Preview Assets.xcassets */; };
+		D5BB3E762A0BAE1700B6548A /* hot_dog_list_appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5BB3E752A0BAE1700B6548A /* hot_dog_list_appTests.swift */; };
+		D5BB3E802A0BAE1700B6548A /* hot_dog_list_appUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5BB3E7F2A0BAE1700B6548A /* hot_dog_list_appUITests.swift */; };
+		D5BB3E822A0BAE1700B6548A /* hot_dog_list_appUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5BB3E812A0BAE1700B6548A /* hot_dog_list_appUITestsLaunchTests.swift */; };
+		D5D3E67B2A1D1C7A00F309B6 /* ItemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5D3E67A2A1D1C7A00F309B6 /* ItemModel.swift */; };
+		D5D3E6802A1D259800F309B6 /* ListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5D3E67F2A1D259800F309B6 /* ListViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D5BB3E722A0BAE1700B6548A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D5BB3E592A0BAE1600B6548A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D5BB3E602A0BAE1600B6548A;
+			remoteInfo = "hot-dog list app";
+		};
+		D5BB3E7C2A0BAE1700B6548A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D5BB3E592A0BAE1600B6548A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D5BB3E602A0BAE1600B6548A;
+			remoteInfo = "hot-dog list app";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D5496C902A26EAA7002485A9 /* NoItemsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoItemsView.swift; sourceTree = "<group>"; };
+		D594E5782A17ED3900268A0A /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
+		D594E57A2A17F05C00268A0A /* ListRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListRowView.swift; sourceTree = "<group>"; };
+		D594E57C2A17F41300268A0A /* AddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = "<group>"; };
+		D5A332F32A1DB17700FF3318 /* ItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemView.swift; sourceTree = "<group>"; };
+		D5A332F52A1DC24700FF3318 /* LabelModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelModel.swift; sourceTree = "<group>"; };
+		D5BB3E612A0BAE1600B6548A /* hot-dog list app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "hot-dog list app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5BB3E642A0BAE1600B6548A /* hot_dog_list_appApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hot_dog_list_appApp.swift; sourceTree = "<group>"; };
+		D5BB3E682A0BAE1700B6548A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D5BB3E6B2A0BAE1700B6548A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D5BB3E712A0BAE1700B6548A /* hot-dog list appTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "hot-dog list appTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5BB3E752A0BAE1700B6548A /* hot_dog_list_appTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hot_dog_list_appTests.swift; sourceTree = "<group>"; };
+		D5BB3E7B2A0BAE1700B6548A /* hot-dog list appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "hot-dog list appUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5BB3E7F2A0BAE1700B6548A /* hot_dog_list_appUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hot_dog_list_appUITests.swift; sourceTree = "<group>"; };
+		D5BB3E812A0BAE1700B6548A /* hot_dog_list_appUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hot_dog_list_appUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D5D3E67A2A1D1C7A00F309B6 /* ItemModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemModel.swift; sourceTree = "<group>"; };
+		D5D3E67F2A1D259800F309B6 /* ListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D5BB3E5E2A0BAE1600B6548A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5BB3E6E2A0BAE1700B6548A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5BB3E782A0BAE1700B6548A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D594E5772A17ECF900268A0A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D594E5782A17ED3900268A0A /* ListView.swift */,
+				D594E57A2A17F05C00268A0A /* ListRowView.swift */,
+				D594E57C2A17F41300268A0A /* AddView.swift */,
+				D5A332F32A1DB17700FF3318 /* ItemView.swift */,
+				D5496C902A26EAA7002485A9 /* NoItemsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D5BB3E582A0BAE1600B6548A = {
+			isa = PBXGroup;
+			children = (
+				D5BB3E632A0BAE1600B6548A /* hot-dog list app */,
+				D5BB3E742A0BAE1700B6548A /* hot-dog list appTests */,
+				D5BB3E7E2A0BAE1700B6548A /* hot-dog list appUITests */,
+				D5BB3E622A0BAE1600B6548A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D5BB3E622A0BAE1600B6548A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D5BB3E612A0BAE1600B6548A /* hot-dog list app.app */,
+				D5BB3E712A0BAE1700B6548A /* hot-dog list appTests.xctest */,
+				D5BB3E7B2A0BAE1700B6548A /* hot-dog list appUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D5BB3E632A0BAE1600B6548A /* hot-dog list app */ = {
+			isa = PBXGroup;
+			children = (
+				D5BB3E642A0BAE1600B6548A /* hot_dog_list_appApp.swift */,
+				D5D3E6792A1D1C4D00F309B6 /* Models */,
+				D5D3E67E2A1D256A00F309B6 /* ViewModels */,
+				D594E5772A17ECF900268A0A /* Views */,
+				D5BB3E682A0BAE1700B6548A /* Assets.xcassets */,
+				D5BB3E6A2A0BAE1700B6548A /* Preview Content */,
+			);
+			path = "hot-dog list app";
+			sourceTree = "<group>";
+		};
+		D5BB3E6A2A0BAE1700B6548A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D5BB3E6B2A0BAE1700B6548A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D5BB3E742A0BAE1700B6548A /* hot-dog list appTests */ = {
+			isa = PBXGroup;
+			children = (
+				D5BB3E752A0BAE1700B6548A /* hot_dog_list_appTests.swift */,
+			);
+			path = "hot-dog list appTests";
+			sourceTree = "<group>";
+		};
+		D5BB3E7E2A0BAE1700B6548A /* hot-dog list appUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D5BB3E7F2A0BAE1700B6548A /* hot_dog_list_appUITests.swift */,
+				D5BB3E812A0BAE1700B6548A /* hot_dog_list_appUITestsLaunchTests.swift */,
+			);
+			path = "hot-dog list appUITests";
+			sourceTree = "<group>";
+		};
+		D5D3E6792A1D1C4D00F309B6 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D5D3E67A2A1D1C7A00F309B6 /* ItemModel.swift */,
+				D5A332F52A1DC24700FF3318 /* LabelModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D5D3E67E2A1D256A00F309B6 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				D5D3E67F2A1D259800F309B6 /* ListViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D5BB3E602A0BAE1600B6548A /* hot-dog list app */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5BB3E852A0BAE1700B6548A /* Build configuration list for PBXNativeTarget "hot-dog list app" */;
+			buildPhases = (
+				D5BB3E5D2A0BAE1600B6548A /* Sources */,
+				D5BB3E5E2A0BAE1600B6548A /* Frameworks */,
+				D5BB3E5F2A0BAE1600B6548A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "hot-dog list app";
+			productName = "hot-dog list app";
+			productReference = D5BB3E612A0BAE1600B6548A /* hot-dog list app.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D5BB3E702A0BAE1700B6548A /* hot-dog list appTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5BB3E882A0BAE1700B6548A /* Build configuration list for PBXNativeTarget "hot-dog list appTests" */;
+			buildPhases = (
+				D5BB3E6D2A0BAE1700B6548A /* Sources */,
+				D5BB3E6E2A0BAE1700B6548A /* Frameworks */,
+				D5BB3E6F2A0BAE1700B6548A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D5BB3E732A0BAE1700B6548A /* PBXTargetDependency */,
+			);
+			name = "hot-dog list appTests";
+			productName = "hot-dog list appTests";
+			productReference = D5BB3E712A0BAE1700B6548A /* hot-dog list appTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D5BB3E7A2A0BAE1700B6548A /* hot-dog list appUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5BB3E8B2A0BAE1700B6548A /* Build configuration list for PBXNativeTarget "hot-dog list appUITests" */;
+			buildPhases = (
+				D5BB3E772A0BAE1700B6548A /* Sources */,
+				D5BB3E782A0BAE1700B6548A /* Frameworks */,
+				D5BB3E792A0BAE1700B6548A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D5BB3E7D2A0BAE1700B6548A /* PBXTargetDependency */,
+			);
+			name = "hot-dog list appUITests";
+			productName = "hot-dog list appUITests";
+			productReference = D5BB3E7B2A0BAE1700B6548A /* hot-dog list appUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D5BB3E592A0BAE1600B6548A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					D5BB3E602A0BAE1600B6548A = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					D5BB3E702A0BAE1700B6548A = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = D5BB3E602A0BAE1600B6548A;
+					};
+					D5BB3E7A2A0BAE1700B6548A = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = D5BB3E602A0BAE1600B6548A;
+					};
+				};
+			};
+			buildConfigurationList = D5BB3E5C2A0BAE1600B6548A /* Build configuration list for PBXProject "hot-dog list app" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D5BB3E582A0BAE1600B6548A;
+			productRefGroup = D5BB3E622A0BAE1600B6548A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D5BB3E602A0BAE1600B6548A /* hot-dog list app */,
+				D5BB3E702A0BAE1700B6548A /* hot-dog list appTests */,
+				D5BB3E7A2A0BAE1700B6548A /* hot-dog list appUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D5BB3E5F2A0BAE1600B6548A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5BB3E6C2A0BAE1700B6548A /* Preview Assets.xcassets in Resources */,
+				D5BB3E692A0BAE1700B6548A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5BB3E6F2A0BAE1700B6548A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5BB3E792A0BAE1700B6548A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D5BB3E5D2A0BAE1600B6548A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5D3E67B2A1D1C7A00F309B6 /* ItemModel.swift in Sources */,
+				D594E57D2A17F41300268A0A /* AddView.swift in Sources */,
+				D5D3E6802A1D259800F309B6 /* ListViewModel.swift in Sources */,
+				D5BB3E652A0BAE1600B6548A /* hot_dog_list_appApp.swift in Sources */,
+				D5A332F62A1DC24700FF3318 /* LabelModel.swift in Sources */,
+				D5A332F42A1DB17700FF3318 /* ItemView.swift in Sources */,
+				D594E5792A17ED3900268A0A /* ListView.swift in Sources */,
+				D594E57B2A17F05C00268A0A /* ListRowView.swift in Sources */,
+				D5496C912A26EAA7002485A9 /* NoItemsView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5BB3E6D2A0BAE1700B6548A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5BB3E762A0BAE1700B6548A /* hot_dog_list_appTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5BB3E772A0BAE1700B6548A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5BB3E802A0BAE1700B6548A /* hot_dog_list_appUITests.swift in Sources */,
+				D5BB3E822A0BAE1700B6548A /* hot_dog_list_appUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D5BB3E732A0BAE1700B6548A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D5BB3E602A0BAE1600B6548A /* hot-dog list app */;
+			targetProxy = D5BB3E722A0BAE1700B6548A /* PBXContainerItemProxy */;
+		};
+		D5BB3E7D2A0BAE1700B6548A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D5BB3E602A0BAE1600B6548A /* hot-dog list app */;
+			targetProxy = D5BB3E7C2A0BAE1700B6548A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D5BB3E832A0BAE1700B6548A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D5BB3E842A0BAE1700B6548A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D5BB3E862A0BAE1700B6548A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"hot-dog list app/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "GMAN.hot-dog-list-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D5BB3E872A0BAE1700B6548A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"hot-dog list app/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "GMAN.hot-dog-list-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D5BB3E892A0BAE1700B6548A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "GMAN.hot-dog-list-appTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hot-dog list app.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/hot-dog list app";
+			};
+			name = Debug;
+		};
+		D5BB3E8A2A0BAE1700B6548A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "GMAN.hot-dog-list-appTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hot-dog list app.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/hot-dog list app";
+			};
+			name = Release;
+		};
+		D5BB3E8C2A0BAE1700B6548A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "GMAN.hot-dog-list-appUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "hot-dog list app";
+			};
+			name = Debug;
+		};
+		D5BB3E8D2A0BAE1700B6548A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "GMAN.hot-dog-list-appUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "hot-dog list app";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D5BB3E5C2A0BAE1600B6548A /* Build configuration list for PBXProject "hot-dog list app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5BB3E832A0BAE1700B6548A /* Debug */,
+				D5BB3E842A0BAE1700B6548A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5BB3E852A0BAE1700B6548A /* Build configuration list for PBXNativeTarget "hot-dog list app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5BB3E862A0BAE1700B6548A /* Debug */,
+				D5BB3E872A0BAE1700B6548A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5BB3E882A0BAE1700B6548A /* Build configuration list for PBXNativeTarget "hot-dog list appTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5BB3E892A0BAE1700B6548A /* Debug */,
+				D5BB3E8A2A0BAE1700B6548A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5BB3E8B2A0BAE1700B6548A /* Build configuration list for PBXNativeTarget "hot-dog list appUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5BB3E8C2A0BAE1700B6548A /* Debug */,
+				D5BB3E8D2A0BAE1700B6548A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D5BB3E592A0BAE1600B6548A /* Project object */;
+}
